@@ -1,0 +1,78 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pipenv
+Pipfile.lock
+
+# virtualenv
+*.env
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Coverage
+.coverage
+htmlcov/
+.tox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Django migrations
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.pyd
+**/migrations/__pycache__/
+**/migrations/*.sqlite3
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test and debug
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
